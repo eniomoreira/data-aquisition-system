@@ -55,6 +55,7 @@ private:
             decideWhaToDo(comand);
             write_message(message);
           }
+          read_message(); // sem esse comando a conexao se cai
         });
   }
 
